@@ -60,9 +60,9 @@ function promptBeforeContinuing(fileList) {
 			
 			process.chdir(_dotfiles);
 			
-			for(file in fileList) {
-				var dotfile = ;
-				var destfile = file;
+			for(filename in fileList) {
+				var dotfile = filename;
+				var destfile = HOMEDIR + dotfile;
 				commands.push = 'ln -s ' + dotfile + ' '  + destfile;
 			}
 			// run the symlink instructions
