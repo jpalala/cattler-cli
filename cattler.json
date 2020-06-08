@@ -1,0 +1,4 @@
+{
+  "dev": ["zshrc", "tmux", "sshconfig", "gitconfig"],
+  "prod": ["gitconfig", "sshconfig", "bashrc"]
+}
